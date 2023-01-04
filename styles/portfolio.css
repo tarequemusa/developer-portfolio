@@ -197,3 +197,35 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+
+/* Contact styles */
+
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    background-image: url('../images/footer-bg.png');
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 100px;
+    padding: 50px 50px;
+    color: yellow;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    padding: 30px 18px;
+
+.contact a{
+    text-decoration: none;
+}
+
+}
+input{
+    height: 64px;
+    
+}
