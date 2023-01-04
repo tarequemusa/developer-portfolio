@@ -19,6 +19,16 @@
     background: #FD6E0A;
     align-items: center;
 }
+.btn-contact {
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding: 18px 55px;
+    height: 64px;
+    border-radius: 45px;    
+    align-items: center;
+}
 
 .two-btn {
     display: flex;
