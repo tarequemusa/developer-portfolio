@@ -239,3 +239,15 @@ input{
     height: 64px;
     
 }
+
+.con-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+/* Copyright Add */
+.cp {
+    text-align: center;
+    padding-bottom: 40px;
+}
