@@ -38,7 +38,7 @@ nav {
     background-image: url('../images/banner-bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    margin:0%;
+    margin: 0%;
 }
 
 .nav_title {
@@ -86,6 +86,10 @@ nav li a:hover {
     margin-bottom: 30px;
 }
 
+section{
+    margin-top: 130px;
+}
+
 /* main section */
 main {
     max-width: 1140px;
@@ -99,16 +103,15 @@ main {
     border-radius: 10px;
     padding: 130px 150px;
     background-image: url('../images/brand-bg.png');
+    background-repeat: round;
     text-align: center;
 }
 
 .section-title {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center;    
     font-weight: 700;
-        font-size: 35px;
-        line-height: 38px;   
-        color: white; 
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -117,16 +120,50 @@ main {
     margin-bottom: 30px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
-    color:white;
+    color: white;
 }
-.info-description{
+
+.info-description {
     font-weight: 700px;
     font-size: 20px;
     color: orange;
 }
+
+/* What I Do Styles */
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 300;
+    color: rgb(100, 102, 93)
+}
+
+
+/* Resume Styles */
